@@ -494,4 +494,4 @@ class Renderer(RendererBase):
         image.paste(logo, (840, 25), logo)
 
         font_large = self.resman.load_font("warhelios_bold.ttf", size=35)
-        draw.text((945, 50), "Minimap Renderer", "white", font_large)
+        draw.text((945, 45), "Minimap Renderer", "white", font_large)
