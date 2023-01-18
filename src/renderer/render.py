@@ -201,7 +201,7 @@ class RenderDual(RendererBase):
         self,
         path: str,
         fps: int = 60,
-        quality: int = 14,
+        quality: int = 10,
         progress_cb: Optional[Callable[[float], Any]] = None,
     ):
         self._load_map()
