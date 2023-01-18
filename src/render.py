@@ -20,7 +20,7 @@ if __name__ == "__main__":
         LOGGER.info("Rendering the replay file...")
         renderer = Renderer(
             replay_info["hidden"]["replay_data"],
-            logs=False,
+            logs=True,
             enable_chat=False,
             use_tqdm=True,
         )
