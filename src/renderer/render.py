@@ -494,12 +494,4 @@ class Renderer(RendererBase):
         image.paste(logo, (840, 25), logo)
 
         font_large = self.resman.load_font("warhelios_bold.ttf", size=35)
-        draw.text((945, 30), "Minimap Renderer", "white", font_large)
-
-        font_large = self.resman.load_font("warhelios_bold.ttf", size=16)
-        draw.text(
-            (945, 75),
-            "https://github.com/WoWs-Builder-Team",
-            "white",
-            font_large,
-        )
+        draw.text((945, 50), "Minimap Renderer", "white", font_large)
