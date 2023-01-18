@@ -387,7 +387,7 @@ class Renderer(RendererBase):
         layer_health = self._load_layer("LayerHealth")(self)
         layer_score = self._load_layer("LayerScore")(self)
         layer_counter = self._load_layer("LayerCounter")(self)
-        layer_frag = self._load_layer("LayerFrag")(self)
+        #layer_frag = self._load_layer("LayerFrag")(self)
         layer_timer = self._load_layer("LayerTimer")(self)
         layer_ribbon = self._load_layer("LayerRibbon")(self)
         layer_chat = self._load_layer("LayerChat")(self)
@@ -437,7 +437,7 @@ class Renderer(RendererBase):
             if self.logs:
                 layer_health.draw(game_time, minimap_bg)
                 layer_counter.draw(game_time, minimap_bg)
-                layer_frag.draw(game_time, minimap_bg)
+                #layer_frag.draw(game_time, minimap_bg)
 
                 layer_ribbon.draw(game_time, minimap_bg)
                 if self.enable_chat:
