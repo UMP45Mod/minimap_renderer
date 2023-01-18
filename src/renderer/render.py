@@ -200,8 +200,8 @@ class RenderDual(RendererBase):
     def start(
         self,
         path: str,
-        fps: int = 20,
-        quality: int = 7,
+        fps: int = 60,
+        quality: int = 14,
         progress_cb: Optional[Callable[[float], Any]] = None,
     ):
         self._load_map()
